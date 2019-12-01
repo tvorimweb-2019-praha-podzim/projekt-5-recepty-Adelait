@@ -44,6 +44,7 @@ notebook/pc:
 .doporucujeme{
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .recept-meta{
@@ -60,9 +61,13 @@ notebook/pc:
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url(images/burger.jpg);
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(images/burger.jpg) center;
     background-size: cover;
-    background-position: center center;
     min-height: 200px;
     margin: 0;
 }
@@ -78,19 +83,43 @@ notebook/pc:
 }
 
 .recept2{
-    background-image: url(images/sushi.jpg);
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(images/sushi.jpg) center;
+    background-size: cover;
 }
 
 .recept3{
-    background-image: url(images/rajcata.jpg);
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(images/rajcata.jpg) center;
+    background-size: cover;
 }
 
 .recept4{
-    background-image: url(images/kure.jpg);
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(images/kure.jpg) center;
+    background-size: cover;
 }
 
 .recept5{
-    background-image: url(images/grilovani.jpg);
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(images/grilovani.jpg) center;
+    background-size: cover;
 }
 
 .recept-kategorie{
